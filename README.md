@@ -30,7 +30,7 @@ The project explores Retrieval-Augmented Generation (RAG), semantic search, vect
 
 Modern landing page with authentication workflows for student access and onboarding.
 
-![Landing Page](assets/campusai-landing.png)
+![Landing Page](images/campusai-landing.png)
 
 ---
 
@@ -38,7 +38,7 @@ Modern landing page with authentication workflows for student access and onboard
 
 CampusAI provides students with an intelligent interface for discovering campus activities, clubs, announcements, and AI-powered insights.
 
-![Features](assets/campusai-features.png)
+![Features](images/campusai-features.png)
 
 ---
 
@@ -46,7 +46,7 @@ CampusAI provides students with an intelligent interface for discovering campus 
 
 Centralized dashboard for interacting with campus updates, announcements, and conversational AI workflows.
 
-![Dashboard](assets/campusai-dashboard.png)
+![Dashboard](images/campusai-dashboard.png)
 
 ---
 
@@ -59,7 +59,7 @@ Example:
 - “What events are happening this weekend?”
 - “Tell me about upcoming workshops.”
 
-![AI Assistant](assets/campusai-query.png)
+![AI Assistant](images/campusai-query.png)
 
 ---
 
