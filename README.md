@@ -2,9 +2,9 @@
 
 ### AI-Powered Smart Campus Engagement Platform
 
-CampusAI is an AI-driven student engagement platform designed to simplify how students discover campus events, clubs, academic activities, and institutional information through conversational AI.
+CampusAI is an AI-driven student engagement platform designed to simplify how students discover campus events, clubs, academic activities, announcements, and institutional information through conversational AI.
 
-Instead of browsing scattered announcements, students can interact naturally with an intelligent assistant to retrieve contextual campus information in real time.
+Instead of browsing scattered notice boards, WhatsApp groups, or fragmented portals, students can interact naturally with an intelligent assistant to retrieve contextual campus information instantly.
 
 The project explores Retrieval-Augmented Generation (RAG), semantic search, vector embeddings, and conversational AI workflows to improve campus accessibility and engagement.
 
@@ -14,84 +14,67 @@ The project explores Retrieval-Augmented Generation (RAG), semantic search, vect
 
 - 🤖 AI-powered campus assistant
 - 🔎 Semantic search using vector embeddings
-- 🧠 Retrieval-Augmented Generation (RAG) workflows
-- 💬 Conversational student interaction
+- 🧠 Retrieval-Augmented Generation (RAG)
+- 💬 Conversational AI workflows
 - 📚 Campus information retrieval
 - 🏛️ Club and event discovery
-- 📊 Intelligent recommendation workflows
-- 🔐 Authentication and user interaction system
-- 🖥️ Interactive user interface
+- 📢 Announcement and update system
+- 🔐 Authentication workflows
+- 🖥️ Interactive student dashboard
 
 ---
 
 # 🖼️ Product Preview
 
-## Dashboard Overview
+## Landing Page & Authentication
 
-Centralized student dashboard for accessing campus information, announcements, and AI-powered interactions.
+Modern landing page with authentication workflows for student access and onboarding.
+
+![Landing Page](assets/campusai-landing.png)
+
+---
+
+## About & Feature Highlights
+
+CampusAI provides students with an intelligent interface for discovering campus activities, clubs, announcements, and AI-powered insights.
+
+![Features](assets/campusai-features.png)
+
+---
+
+## AI-Powered Student Dashboard
+
+Centralized dashboard for interacting with campus updates, announcements, and conversational AI workflows.
 
 ![Dashboard](assets/campusai-dashboard.png)
 
 ---
 
-## AI Assistant Interface
+## Conversational Query Interface
 
-Conversational AI assistant designed for intelligent student interaction and contextual campus support.
+Students can ask natural language questions and receive contextual campus information in real time.
 
-![Assistant](assets/campusai-assistant.png)
+Example:
+- “What do you know about the arts club?”
+- “What events are happening this weekend?”
+- “Tell me about upcoming workshops.”
 
----
-
-## Login & Authentication
-
-Secure authentication workflow for student access and personalized interaction.
-
-![Login](assets/campusai-login.png)
+![AI Assistant](assets/campusai-query.png)
 
 ---
 
 # 🏗️ System Architecture
 
-CampusAI follows a Retrieval-Augmented Generation (RAG) architecture for contextual information retrieval and intelligent response generation.
-
-![Architecture](assets/campusai-rag-architecture.png)
-
----
-
-# 🔄 Data Flow Diagram
-
-The platform processes user queries through embedding generation, vector retrieval, and contextual LLM response workflows.
-
-![Data Flow](assets/campusai-dataflow.png)
-
----
-
-# 📌 Use Case Diagram
-
-Illustrates the interaction between students, campus workflows, and the AI assistant system.
-
-![Use Case](assets/campusai-usecase.png)
-
----
-
-# ⚙️ Activity Workflow
-
-High-level activity flow representing query handling and intelligent response generation.
-
-![Activity Diagram](assets/campusai-activity.png)
-
----
-
-# 🧠 AI Workflow
+CampusAI follows a Retrieval-Augmented Generation (RAG) workflow designed for semantic retrieval and contextual response generation.
 
 ```text
 User Query
       ↓
 Embedding Generation
       ↓
-FAISS Vector Search
+Vector Similarity Search
       ↓
-Retrieve Relevant Chunks
+Retrieve Relevant Context
       ↓
 Context Injection
       ↓
@@ -99,6 +82,38 @@ LLM Response Generation
       ↓
 AI Response to User
 ```
+
+---
+
+# 🧠 Core AI Concepts Used
+
+## Retrieval-Augmented Generation (RAG)
+
+CampusAI combines:
+- semantic retrieval
+- vector search
+- contextual document retrieval
+- LLM-powered response generation
+
+to improve factual accuracy and contextual awareness.
+
+---
+
+## Vector Embeddings
+
+Campus-related documents and user queries are converted into dense vector embeddings for semantic similarity matching.
+
+---
+
+## Semantic Search
+
+The system retrieves contextually relevant campus information instead of relying only on keyword matching.
+
+---
+
+## Conversational AI
+
+The assistant enables natural language interaction for improved accessibility and student engagement.
 
 ---
 
@@ -115,9 +130,9 @@ AI Response to User
 
 ## AI / NLP
 - LangChain
-- Groq LLM API
 - Sentence Transformers
 - RetrievalQA Chains
+- Groq LLM API
 
 ## Vector Database
 - FAISS
@@ -128,39 +143,16 @@ AI Response to User
 
 ---
 
-# 📚 Core AI Concepts Used
-
-## Retrieval-Augmented Generation (RAG)
-
-CampusAI combines semantic retrieval with LLM generation to improve factual accuracy and contextual awareness.
-
----
-
-## Vector Embeddings
-
-Campus documents and user queries are transformed into vector embeddings for semantic similarity search.
-
----
-
-## Semantic Search
-
-FAISS enables efficient retrieval of contextually relevant campus information using vector similarity matching.
-
----
-
 # 📂 Repository Structure
 
 ```text
 CampusAI/
 │
 ├── assets/
+│   ├── campusai-landing.png
+│   ├── campusai-features.png
 │   ├── campusai-dashboard.png
-│   ├── campusai-login.png
-│   ├── campusai-assistant.png
-│   ├── campusai-rag-architecture.png
-│   ├── campusai-dataflow.png
-│   ├── campusai-usecase.png
-│   └── campusai-activity.png
+│   └── campusai-query.png
 │
 └── README.md
 ```
@@ -169,21 +161,21 @@ CampusAI/
 
 # 📖 Project Scope
 
-CampusAI was developed as an AI-driven academic project focused on improving student interaction with campus information through conversational AI and semantic retrieval systems.
+CampusAI was developed as an AI-driven academic project focused on improving how students interact with campus information through conversational AI and semantic retrieval systems.
 
 The project explores:
 - Retrieval-Augmented Generation (RAG)
 - vector databases
 - semantic search
 - conversational AI
-- intelligent recommendation systems
-- contextual information retrieval
+- intelligent information retrieval
+- student engagement systems
 
 The repository currently serves as a project showcase containing:
-- system architecture
 - UI workflows
-- AI pipeline concepts
-- design diagrams
+- architecture concepts
+- AI interaction flows
+- semantic retrieval design
 - implementation documentation
 
 ---
@@ -191,14 +183,14 @@ The repository currently serves as a project showcase containing:
 # 🚀 Future Enhancements
 
 - Real-time campus event APIs
-- Personalized recommendations
+- Personalized student recommendations
 - Voice-based interaction
+- Multi-language support
 - Mobile application support
-- Multi-language assistance
-- Event registration workflows
-- AI-powered student personalization
+- Club registration workflows
+- AI-powered personalization
 - Notification systems
-- Admin dashboard
+- Admin management dashboard
 
 ---
 
